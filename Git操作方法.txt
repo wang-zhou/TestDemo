@@ -1,0 +1,19 @@
+
+提交GIT代码方法：
+
+查看当前版本库状态，红色代表此文件还未被Git所管理，
+使用git add XXX，将该文件加入缓冲区,在使用git status,看到文件变成绿色为OK
+git status
+
+进入指定上传文件的文件夹，输入下面命令，添加上传的那个文件(XXX)
+git add XXX
+
+写描述备注，这个文件是做什么的
+git commit -m "写描述" 
+
+提交相应的分支，master为默认的主分支名
+git push origin master
+
+查看历史提交记录
+git log
+
